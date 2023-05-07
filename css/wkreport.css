@@ -1,0 +1,120 @@
+table {
+    width: 80%;
+    border: 0px solid;
+    /* border-collapse: collapse; */
+    margin-left: auto;
+    margin-right: auto;
+}
+caption {
+    color: #606060;
+    background-color: transparent;
+    font-size: 150%;
+    font-weight: bolder;
+    padding: 40px 0 10px 0;
+}
+th.TableHeader_OKR {
+    border: 1px solid #5B9BD5;
+    background-color: #5B9BD5;
+    color: white;
+    padding: 5px 0px 5px 0px;
+}
+th.TableHeader_Action {
+    border: 1px solid #ED7D31;
+    background-color: #ED7D31;
+    color: white;
+    padding: 5px 0px 5px 0px;
+}
+
+td.Blank {
+    border: 0px solid black;
+    background-color: transparent;
+    padding: 2px;
+}
+td.Objective {
+    color: #303030;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 3px;
+    /* font-size: 120%; */
+}
+td.KR {
+    color: #303030;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 5px;
+    /* font-size: 120%; */
+}
+td.HightLights {
+    color: #303030;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 5px;
+    /* font-size: 120%; */
+}
+td.ActionItem {
+    color: #303030;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 3px;
+    /* font-size: 120%; */
+}
+td.ActionStatus {
+    text-align: center;
+    color: #303030;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 3px;
+    /* font-size: 120%; */
+}
+td.ActionThisWeek {
+    color: #303030;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 3px;
+    /* font-size: 120%; */
+}
+td.ActionLaskWeek {
+    color: #303030;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 3px;
+    /* font-size: 120%; */
+}
+td.ActionWithOthers {
+    color: #303030;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 3px;
+    /* font-size: 120%; */
+}
+td.NoticeHeader {
+    font-weight: bold;
+    color: #303030;
+    background-color: lightyellow;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 3px;
+    /* font-size: 120%; */
+}
+td.NoticeContent {
+    color: #303030;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 3px;
+    /* font-size: 120%; */
+}
+span.OKRProgress {
+    color: lightseagreen;
+}
+span.ActionProgress {
+    color: purple;
+}
+span.delaywarn1 {
+    color: orange;
+    font-weight: bold;
+}
+a:link {color: blue;text-decoration:none;}
+a:visited {color: blue;text-decoration:none;}
+a:hover {text-decoration:underline;}
